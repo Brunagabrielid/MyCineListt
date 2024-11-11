@@ -36,6 +36,9 @@
             AtoresPrincipais = new Label();
             button1 = new Button();
             SinopseDoFilme = new TextBox();
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // cmb_nomesFilmes
@@ -111,18 +114,39 @@
             // 
             SinopseDoFilme.BackColor = Color.CornflowerBlue;
             SinopseDoFilme.ForeColor = Color.Black;
-            SinopseDoFilme.Location = new Point(50, 160);
+            SinopseDoFilme.Location = new Point(385, 127);
             SinopseDoFilme.Multiline = true;
             SinopseDoFilme.Name = "SinopseDoFilme";
             SinopseDoFilme.ScrollBars = ScrollBars.Vertical;
-            SinopseDoFilme.Size = new Size(754, 181);
+            SinopseDoFilme.Size = new Size(420, 181);
             SinopseDoFilme.TabIndex = 10;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(61, 94);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(166, 234);
+            pictureBox1.TabIndex = 11;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(304, 330);
+            label1.Name = "label1";
+            label1.Size = new Size(98, 20);
+            label1.TabIndex = 12;
+            label1.Text = "nomeoriginal";
             // 
             // DetalhesFilmes
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(925, 529);
+            Controls.Add(label1);
+            Controls.Add(pictureBox1);
             Controls.Add(SinopseDoFilme);
             Controls.Add(button1);
             Controls.Add(AtoresPrincipais);
@@ -136,6 +160,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "DetalhesFilmes";
             Load += DetalhesFilmes_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -150,5 +175,7 @@
         private Label AtoresPrincipais;
         private Button button1;
         private TextBox SinopseDoFilme;
+        private PictureBox pictureBox1;
+        private Label label1;
     }
 }

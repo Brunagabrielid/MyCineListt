@@ -45,7 +45,7 @@ namespace AplicativoMyCineList
             {
                 DadosGlobais.filmesSalvos.Add(Bailarina);
             }
- 
+
             // Código para o botão indicar a seleção e mostrar o poster | tela temporária //
 
             filmesSelecionadosPeloUsuario.Add(posterABailarina);
@@ -65,7 +65,7 @@ namespace AplicativoMyCineList
             {
                 DadosGlobais.filmesSalvos.Add(aBelaeaFera);
             }
-             
+
             filmesSelecionadosPeloUsuario.Add(posterABelaEAfera);
             btnAdicionarBelaEAFera.Text = "ADICIONADO";
             btnAdicionarBelaEAFera.ForeColor = Color.White;
@@ -122,7 +122,7 @@ namespace AplicativoMyCineList
             {
                 DadosGlobais.filmesSalvos.Add(frozen);
             }
-                
+
             filmesSelecionadosPeloUsuario.Add(posterFrozen);
             btnAdicionarFrozen.Text = "ADICIONADO";
             btnAdicionarFrozen.ForeColor = Color.White;
@@ -141,7 +141,7 @@ namespace AplicativoMyCineList
             {
                 DadosGlobais.filmesSalvos.Add(mulan);
             }
-           
+
 
             filmesSelecionadosPeloUsuario.Add(posterMulan);
             btnAdicionarMulan.Text = "ADICIONADO";
@@ -620,6 +620,11 @@ namespace AplicativoMyCineList
             TelaDeInicio telaDeInicio = new TelaDeInicio();
             telaDeInicio.Show();
             this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
