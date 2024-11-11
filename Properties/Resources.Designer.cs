@@ -63,6 +63,16 @@ namespace AplicativoMyCineList.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap APequenaSereiaAdd {
+            get {
+                object obj = ResourceManager.GetObject("APequenaSereiaAdd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AQAMNSadd {
             get {
                 object obj = ResourceManager.GetObject("AQAMNSadd", resourceCulture);
@@ -486,6 +496,36 @@ namespace AplicativoMyCineList.Properties {
         internal static System.Drawing.Bitmap MyNameAdd {
             get {
                 object obj = ResourceManager.GetObject("MyNameAdd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NANAadd {
+            get {
+                object obj = ResourceManager.GetObject("NANAadd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap O_Amor_Mora {
+            get {
+                object obj = ResourceManager.GetObject("O Amor Mora", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap O_Amor_Mora_Ao_Lado_deetails {
+            get {
+                object obj = ResourceManager.GetObject("O Amor Mora Ao Lado deetails", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
