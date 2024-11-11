@@ -116,7 +116,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "A Pequena Sereia")
             {
-                // pictureBox1.Image = Properties.Resources.APequenaSereiaAdd; 
+                pictureBox1.Image = Properties.Resources.APequenaSereiaAdd; 
                 nomeoriginal = "A Pequena Sereia";
                 titulo = "Nome Original: The Little Mermaid";
                 sinopsedofilme = "Remake live action do clássico desenho animado A Pequena Sereia, de 1989, da Disney. A caçula das filhas do Rei Tritão (Javier Bardem), Ariel (Halle Bailey) é uma bela e espirituosa jovem sereia com sede de aventura. Desejando descobrir mais sobre o mundo além do mar, Ariel visita a superfície e se apaixona intensamente pelo arrojado Príncipe Eric (Jonah Hauer-King), ao salvá-lo de um naufrágio. Mas para procurá-lo em terra firme e se aproximar do príncipe humano, a sereia pede ajuda à bruxa do mar, Úrsula (Melissa McCarthy), e aceita ceder sua voz para que a feiticeira lhe dê pernas. Agora, ela terá o desafio de se comunicar com o rapaz ao experimentar a vida em terra firme, além de entrar em conflito com os valores de sua família. \"A Pequena Sereia\" é um conto de fadas literário escrito pelo autor dinamarquês Hans Christian Andersen, publicado pela primeira vez em 1837.";
@@ -293,7 +293,7 @@ namespace AplicativoMyCineList
                 nomeoriginal = "My Name";
                 titulo = "Nome Internacional: My Name";
                 sinopsedofilme = "My Name, série sul-coreana original da Netflix, acompanha Yoon ji-woo (Han So-hee), uma mulher que, após presenciar o assassinato do pai, busca vingança a todo custo. Ela deposita sua confiança em um chefão do crime organizado da Córeia do Sul que promete justiça a ela. Sob seu comando, Yoon ji-woo entra para polícia coreana na intenção de se tornar informante para ele.";
-                duracao = "Duração: 50 Minutos por Episódio | 8 Episódios";
+                duracao = "Série: 50 Minutos por Episódio | 8 Episódios";
                 pais = "Pais de origem: Coreia do Sul, 2021";
                 atores = "Elenco Principal: So-Hee Han, Ahn Bo Hyun, Sang-ho Kim";
                 diretor = "Dirigido por: Kim Jin-min";
@@ -302,11 +302,11 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Nana")
             {
-                // pictureBox1.Image = Properties.Resources.NanaAdd;
+                pictureBox1.Image = Properties.Resources.NANAadd;
                 nomeoriginal = "Nana";
                 titulo = "Nome Internacional: Nana";
                 sinopsedofilme = "Duas mulheres com o mesmo nome e personalidades completamente diferentes chegam a Tóquio para um novo começo.";
-                duracao = "Duração: 22 minutos por Episódio | 47 Episódios";
+                duracao = "Série: 22 minutos por Episódio | 47 Episódios";
                 pais = "Pais de origem: Japão, 2006";
                 atores = "Elenco Principal: Romi Park, Kaori e Hidenobu Kiuchi";
                 diretor = "Dirigido por: Morio Asaka";
@@ -315,11 +315,12 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "O Amor Mora ao Lado")
             {
+                BackgroundImage = Properties.Resources.O_Amor_Mora_Ao_Lado_deetails;
                 pictureBox1.Image = Properties.Resources.LoveNextDoorAdd;
                 nomeoriginal = "O Amor Mora ao Lado";
                 titulo = "Nome Internacional: Love Next Door";
                 sinopsedofilme = "Na tentativa de recomeçar a vida, uma mulher retorna à Coreia e se envolve com alguém do passado. O problema é que existe uma história complicada entre os dois.";
-                duracao = "Duração: 1 hora por Episódio | 16 Episódios";
+                duracao = "Série: 1 hora por Episódio | 16 Episódios";
                 pais = "Pais de origem: Coreia do Sul, 2024";
                 atores = "Elenco Principal: Jung Hae-in, Jung So-min e Kim Ji-eun";
                 diretor = "Dirigido por: Yoo Je-won";
@@ -332,7 +333,7 @@ namespace AplicativoMyCineList
                 nomeoriginal = "O Jogo da Morte";
                 titulo = "Nome Internacional: Death's Game";
                 sinopsedofilme = "Em O Jogo da Morte, um homem precisa viver 12 vidas e passar por 12 mortes para não ir para o inferno. Yee-jay (Seo In-guk) é deixado pela namorada e perde o dinheiro que lhe restava em um golpe de bitcoin. Completamente desesperado, ele comete suicídio, mas a morte se recusa a aceitar o desrespeito aos seus planos e o obriga a passar por um jogo. Yee-jay precisará viver 12 vidas diferentes e morrer 12 vezes e, caso ele sobreviva a alguma delas, viverá naquela encarnação. Caso contrário, está fadado a passar a eternidade no inferno.";
-                duracao = "Duração: 45 minutos por Episódio | 6 Episódios";
+                duracao = "Série: 45 minutos por Episódio | 6 Episódios";
                 pais = "Pais de origem: Coreia do Sul, 2023";
                 atores = "Elenco Principal: Seo In-guk, Park So-Dam, Go Yoon Jung";
                 diretor = "Dirigido por: Ha Byung-hoon";
@@ -398,16 +399,11 @@ namespace AplicativoMyCineList
                 nomeoriginal = "Rainha das Lágrimas";
                 titulo = "Nome Internacional: Queen Of Tears";
                 sinopsedofilme = "Em Rainha das Lágrimas, um casal de magnatas supera uma crise matrimonial ainda que tudo esteja contra eles. No drama coreano, Hyun-woo (Kim Soo-hyun), o diretor de uma rede de supermercados e Hae-in (Kim Ji-won), uma herdeira chaebol de um império de lojas de departamento, se apaixonam intensamente na juventude e logo se casam. O tempo passa e eles entram em uma profunda crise no casamento, mas quando tudo aponta para o pior, o amor volta a florescer e eles vão superando as dificuldades juntos.";
-                duracao = "Duração: 1 hora e meia por Episódio | 16 Episódios ";
+                duracao = "Série: 1 hora e meia por Episódio | 16 Episódios ";
                 pais = "Pais de origem: Coreia do Sul, 2024";
                 atores = "Elenco Principal: Soo-hyun Kim, Ji-won Kim, Sung-Hoon Park";
                 diretor = "Dirigido por: Jang Young-woo e Kim Hee-won";
-
-
-
             }
-
-        
 
             else if (FilmeEscolhido == "Rapunzel")
             {
@@ -441,7 +437,7 @@ namespace AplicativoMyCineList
                 nomeoriginal = "Urso Sem Curso";
                 titulo = "Nome Original: We Bare Bears";
                 sinopsedofilme = "Pardo, Panda e Polar são apenas três forasteiros tentando encontrar uma maneira de se adaptar. Se, pelo caminho, eles conseguirem algum sorvete, melhor ainda. Ser um urso no mundo moderno e civilizado não é nada fácil.";
-                duracao = "Duração: 11 minutos por Episódio | 140 Episódios";
+                duracao = "Série: 11 minutos por Episódio | 140 Episódios";
                 pais = "Pais de origem: Estados Unidos, 2015-2019";
                 atores = "Elenco Principal: Eric Edelstein, Bobby Moynihan, Max Mitchell";
                 diretor = "Dirigido por: Manny Hernandez";
@@ -461,6 +457,8 @@ namespace AplicativoMyCineList
                 diretor = "Dirigido por:  Makoto Shinkai";
 
             }
+
+           
 
             SinopseDoFilme.Text = sinopsedofilme;
             NomeDoFilme.Text = titulo;

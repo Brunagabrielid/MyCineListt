@@ -626,5 +626,10 @@ namespace AplicativoMyCineList
         {
 
         }
+
+        private void posterABailarina_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

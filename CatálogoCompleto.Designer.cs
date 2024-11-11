@@ -1937,6 +1937,7 @@
             posterABailarina.Size = new Size(94, 136);
             posterABailarina.TabIndex = 0;
             posterABailarina.TabStop = false;
+            posterABailarina.Click += posterABailarina_Click;
             // 
             // pictureBox31
             // 

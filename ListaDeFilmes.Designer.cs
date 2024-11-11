@@ -51,6 +51,7 @@
             Name = "ListaDeFilmes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ListaDeFilmes";
+            Load += ListaDeFilmes_Load;
             ResumeLayout(false);
         }
 

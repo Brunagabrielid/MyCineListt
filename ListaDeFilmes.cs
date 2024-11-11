@@ -52,5 +52,10 @@ namespace AplicativoMyCineList
             catálogoCompleto.Show();
             this.Hide();
         }
+
+        private void ListaDeFilmes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

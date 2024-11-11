@@ -34,7 +34,7 @@
             NomeDoFilme = new Label();
             NomeDoDiretor = new Label();
             AtoresPrincipais = new Label();
-            button1 = new Button();
+            VerDetalhes = new Button();
             SinopseDoFilme = new TextBox();
             pictureBox1 = new PictureBox();
             label1 = new Label();
@@ -44,7 +44,7 @@
             // cmb_nomesFilmes
             // 
             cmb_nomesFilmes.FormattingEnabled = true;
-            cmb_nomesFilmes.Location = new Point(675, 12);
+            cmb_nomesFilmes.Location = new Point(28, 12);
             cmb_nomesFilmes.Name = "cmb_nomesFilmes";
             cmb_nomesFilmes.Size = new Size(238, 28);
             cmb_nomesFilmes.TabIndex = 0;
@@ -53,8 +53,10 @@
             // DuracaoDoFilme
             // 
             DuracaoDoFilme.AutoSize = true;
+            DuracaoDoFilme.BackColor = Color.LightGoldenrodYellow;
             DuracaoDoFilme.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            DuracaoDoFilme.Location = new Point(304, 440);
+            DuracaoDoFilme.ForeColor = SystemColors.ActiveCaptionText;
+            DuracaoDoFilme.Location = new Point(28, 348);
             DuracaoDoFilme.Name = "DuracaoDoFilme";
             DuracaoDoFilme.Size = new Size(63, 20);
             DuracaoDoFilme.TabIndex = 3;
@@ -63,8 +65,10 @@
             // PaisDeOrigem
             // 
             PaisDeOrigem.AutoSize = true;
+            PaisDeOrigem.BackColor = Color.LightGoldenrodYellow;
             PaisDeOrigem.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            PaisDeOrigem.Location = new Point(304, 380);
+            PaisDeOrigem.ForeColor = SystemColors.ActiveCaptionText;
+            PaisDeOrigem.Location = new Point(28, 288);
             PaisDeOrigem.Name = "PaisDeOrigem";
             PaisDeOrigem.Size = new Size(109, 20);
             PaisDeOrigem.TabIndex = 5;
@@ -73,8 +77,10 @@
             // NomeDoFilme
             // 
             NomeDoFilme.AutoSize = true;
+            NomeDoFilme.BackColor = Color.LightGoldenrodYellow;
             NomeDoFilme.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            NomeDoFilme.Location = new Point(304, 360);
+            NomeDoFilme.ForeColor = SystemColors.ActiveCaptionText;
+            NomeDoFilme.Location = new Point(28, 268);
             NomeDoFilme.Name = "NomeDoFilme";
             NomeDoFilme.Size = new Size(99, 20);
             NomeDoFilme.TabIndex = 6;
@@ -83,8 +89,10 @@
             // NomeDoDiretor
             // 
             NomeDoDiretor.AutoSize = true;
+            NomeDoDiretor.BackColor = Color.LightGoldenrodYellow;
             NomeDoDiretor.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            NomeDoDiretor.Location = new Point(304, 420);
+            NomeDoDiretor.ForeColor = SystemColors.ActiveCaptionText;
+            NomeDoDiretor.Location = new Point(28, 328);
             NomeDoDiretor.Name = "NomeDoDiretor";
             NomeDoDiretor.Size = new Size(54, 20);
             NomeDoDiretor.TabIndex = 7;
@@ -93,47 +101,52 @@
             // AtoresPrincipais
             // 
             AtoresPrincipais.AutoSize = true;
+            AtoresPrincipais.BackColor = Color.LightGoldenrodYellow;
             AtoresPrincipais.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            AtoresPrincipais.Location = new Point(304, 400);
+            AtoresPrincipais.ForeColor = SystemColors.ActiveCaptionText;
+            AtoresPrincipais.Location = new Point(28, 308);
             AtoresPrincipais.Name = "AtoresPrincipais";
             AtoresPrincipais.Size = new Size(160, 20);
             AtoresPrincipais.TabIndex = 8;
             AtoresPrincipais.Text = "trio principal de atores";
             // 
-            // button1
+            // VerDetalhes
             // 
-            button1.Location = new Point(783, 46);
-            button1.Name = "button1";
-            button1.Size = new Size(130, 38);
-            button1.TabIndex = 9;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            VerDetalhes.ForeColor = SystemColors.ActiveCaptionText;
+            VerDetalhes.Location = new Point(272, 12);
+            VerDetalhes.Name = "VerDetalhes";
+            VerDetalhes.Size = new Size(130, 38);
+            VerDetalhes.TabIndex = 9;
+            VerDetalhes.Text = "Ver Detalhes";
+            VerDetalhes.UseVisualStyleBackColor = true;
+            VerDetalhes.Click += button1_Click;
             // 
             // SinopseDoFilme
             // 
-            SinopseDoFilme.BackColor = Color.CornflowerBlue;
+            SinopseDoFilme.BackColor = Color.LightGoldenrodYellow;
             SinopseDoFilme.ForeColor = Color.Black;
-            SinopseDoFilme.Location = new Point(385, 127);
+            SinopseDoFilme.Location = new Point(134, 64);
             SinopseDoFilme.Multiline = true;
             SinopseDoFilme.Name = "SinopseDoFilme";
             SinopseDoFilme.ScrollBars = ScrollBars.Vertical;
-            SinopseDoFilme.Size = new Size(420, 181);
+            SinopseDoFilme.Size = new Size(268, 170);
             SinopseDoFilme.TabIndex = 10;
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(61, 94);
+            pictureBox1.Location = new Point(28, 75);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(166, 234);
+            pictureBox1.Size = new Size(92, 130);
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.LightGoldenrodYellow;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(304, 330);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(28, 248);
             label1.Name = "label1";
             label1.Size = new Size(98, 20);
             label1.TabIndex = 12;
@@ -148,7 +161,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(SinopseDoFilme);
-            Controls.Add(button1);
+            Controls.Add(VerDetalhes);
             Controls.Add(AtoresPrincipais);
             Controls.Add(NomeDoDiretor);
             Controls.Add(NomeDoFilme);
@@ -177,5 +190,6 @@
         private TextBox SinopseDoFilme;
         private PictureBox pictureBox1;
         private Label label1;
+        private Button VerDetalhes;
     }
 }
