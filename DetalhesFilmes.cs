@@ -75,7 +75,8 @@ namespace AplicativoMyCineList
             string titulo = "";
             string diretor = "";
             string nomeoriginal = "";
-            string abailarina = "@\"..\\..\\Resources\BallerinaAdd.png\"";
+            
+
 
             if (FilmeEscolhido == "A Bela e a Fera")
             {
@@ -147,7 +148,7 @@ namespace AplicativoMyCineList
             }
             else if (FilmeEscolhido == "A Bailarina")
             {
-                nomeoriginal = "A Bailarina";
+               
                 titulo = "Nome Original: Ballerina";
                 sinopsedofilme = "Em A Bailarina, neste suspense de ação e vingança, a impiedosa ex-guarda-costas Ok-ju (Jun Jong-seo) persegue Choi (Kim Ji-hun), o homem responsável pela morte de sua melhor amiga Min-hee (Park Yu-rim), a quem jurou vingar.";
                 duracao = "Duração: 1 hora e 32 minutos";
@@ -370,6 +371,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Rainha das Lágrimas")
             {
+              
                 nomeoriginal = "Rainha das Lágrimas";
                 titulo = "Nome Internacional: Queen Of Tears";
                 sinopsedofilme = "Em Rainha das Lágrimas, um casal de magnatas supera uma crise matrimonial ainda que tudo esteja contra eles. No drama coreano, Hyun-woo (Kim Soo-hyun), o diretor de uma rede de supermercados e Hae-in (Kim Ji-won), uma herdeira chaebol de um império de lojas de departamento, se apaixonam intensamente na juventude e logo se casam. O tempo passa e eles entram em uma profunda crise no casamento, mas quando tudo aponta para o pior, o amor volta a florescer e eles vão superando as dificuldades juntos.";
@@ -378,7 +380,11 @@ namespace AplicativoMyCineList
                 atores = "Elenco Principal: Soo-hyun Kim, Ji-won Kim, Sung-Hoon Park";
                 diretor = "Dirigido por: Jang Young-woo e Kim Hee-won";
 
+
+
             }
+
+        
 
             else if (FilmeEscolhido == "Rapunzel")
             {
@@ -435,13 +441,10 @@ namespace AplicativoMyCineList
             PaisDeOrigem.Text = pais;
             DuracaoDoFilme.Text = duracao;
             AtoresPrincipais.Text = atores;
-            NomePTBR.Text = nomeoriginal;
+           
+
 
         }
 
-        private void NomePTBR_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
