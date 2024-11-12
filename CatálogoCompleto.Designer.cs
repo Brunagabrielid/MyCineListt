@@ -117,21 +117,6 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            button59 = new Button();
-            button57 = new Button();
-            button55 = new Button();
-            button53 = new Button();
-            button51 = new Button();
-            button49 = new Button();
-            button47 = new Button();
-            button45 = new Button();
-            button43 = new Button();
-            button41 = new Button();
-            button39 = new Button();
-            button37 = new Button();
-            button35 = new Button();
-            button33 = new Button();
-            button31 = new Button();
             posterRei = new PictureBox();
             posterUrsos = new PictureBox();
             posterKillBill1 = new PictureBox();
@@ -147,21 +132,6 @@
             posterJohnWick = new PictureBox();
             posterOAmorMoraAoLado = new PictureBox();
             posterAteQueASorteNosSepare = new PictureBox();
-            button30 = new Button();
-            button29 = new Button();
-            button28 = new Button();
-            button27 = new Button();
-            button26 = new Button();
-            button25 = new Button();
-            button24 = new Button();
-            button23 = new Button();
-            button22 = new Button();
-            button21 = new Button();
-            button20 = new Button();
-            button19 = new Button();
-            button18 = new Button();
-            button17 = new Button();
-            button14 = new Button();
             btnAddABailarina = new Button();
             posterABelaEAfera = new PictureBox();
             posterMulan = new PictureBox();
@@ -308,21 +278,6 @@
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(button59);
-            panel1.Controls.Add(button57);
-            panel1.Controls.Add(button55);
-            panel1.Controls.Add(button53);
-            panel1.Controls.Add(button51);
-            panel1.Controls.Add(button49);
-            panel1.Controls.Add(button47);
-            panel1.Controls.Add(button45);
-            panel1.Controls.Add(button43);
-            panel1.Controls.Add(button41);
-            panel1.Controls.Add(button39);
-            panel1.Controls.Add(button37);
-            panel1.Controls.Add(button35);
-            panel1.Controls.Add(button33);
-            panel1.Controls.Add(button31);
             panel1.Controls.Add(posterRei);
             panel1.Controls.Add(posterUrsos);
             panel1.Controls.Add(posterKillBill1);
@@ -338,21 +293,6 @@
             panel1.Controls.Add(posterJohnWick);
             panel1.Controls.Add(posterOAmorMoraAoLado);
             panel1.Controls.Add(posterAteQueASorteNosSepare);
-            panel1.Controls.Add(button30);
-            panel1.Controls.Add(button29);
-            panel1.Controls.Add(button28);
-            panel1.Controls.Add(button27);
-            panel1.Controls.Add(button26);
-            panel1.Controls.Add(button25);
-            panel1.Controls.Add(button24);
-            panel1.Controls.Add(button23);
-            panel1.Controls.Add(button22);
-            panel1.Controls.Add(button21);
-            panel1.Controls.Add(button20);
-            panel1.Controls.Add(button19);
-            panel1.Controls.Add(button18);
-            panel1.Controls.Add(button17);
-            panel1.Controls.Add(button14);
             panel1.Controls.Add(btnAddABailarina);
             panel1.Controls.Add(posterABelaEAfera);
             panel1.Controls.Add(posterMulan);
@@ -1385,141 +1325,6 @@
             label1.TabIndex = 1;
             label1.Text = "AÇÃO";
             // 
-            // button59
-            // 
-            button59.Location = new Point(589, 1097);
-            button59.Name = "button59";
-            button59.Size = new Size(114, 34);
-            button59.TabIndex = 89;
-            button59.Text = "EXCLUIR";
-            button59.UseVisualStyleBackColor = true;
-            // 
-            // button57
-            // 
-            button57.Location = new Point(589, 1380);
-            button57.Name = "button57";
-            button57.Size = new Size(114, 34);
-            button57.TabIndex = 87;
-            button57.Text = "EXCLUIR";
-            button57.UseVisualStyleBackColor = true;
-            // 
-            // button55
-            // 
-            button55.Location = new Point(119, 1380);
-            button55.Name = "button55";
-            button55.Size = new Size(114, 34);
-            button55.TabIndex = 85;
-            button55.Text = "EXCLUIR";
-            button55.UseVisualStyleBackColor = true;
-            // 
-            // button53
-            // 
-            button53.Location = new Point(355, 1380);
-            button53.Name = "button53";
-            button53.Size = new Size(114, 34);
-            button53.TabIndex = 83;
-            button53.Text = "EXCLUIR";
-            button53.UseVisualStyleBackColor = true;
-            // 
-            // button51
-            // 
-            button51.Location = new Point(589, 1235);
-            button51.Name = "button51";
-            button51.Size = new Size(114, 34);
-            button51.TabIndex = 81;
-            button51.Text = "EXCLUIR";
-            button51.UseVisualStyleBackColor = true;
-            // 
-            // button49
-            // 
-            button49.Location = new Point(355, 1235);
-            button49.Name = "button49";
-            button49.Size = new Size(114, 34);
-            button49.TabIndex = 79;
-            button49.Text = "EXCLUIR";
-            button49.UseVisualStyleBackColor = true;
-            // 
-            // button47
-            // 
-            button47.Location = new Point(116, 1235);
-            button47.Name = "button47";
-            button47.Size = new Size(114, 34);
-            button47.TabIndex = 77;
-            button47.Text = "EXCLUIR";
-            button47.UseVisualStyleBackColor = true;
-            // 
-            // button45
-            // 
-            button45.Location = new Point(116, 1097);
-            button45.Name = "button45";
-            button45.Size = new Size(114, 34);
-            button45.TabIndex = 75;
-            button45.Text = "EXCLUIR";
-            button45.UseVisualStyleBackColor = true;
-            // 
-            // button43
-            // 
-            button43.Location = new Point(116, 943);
-            button43.Name = "button43";
-            button43.Size = new Size(114, 34);
-            button43.TabIndex = 73;
-            button43.Text = "EXCLUIR";
-            button43.UseVisualStyleBackColor = true;
-            // 
-            // button41
-            // 
-            button41.Location = new Point(355, 1097);
-            button41.Name = "button41";
-            button41.Size = new Size(114, 34);
-            button41.TabIndex = 71;
-            button41.Text = "EXCLUIR";
-            button41.UseVisualStyleBackColor = true;
-            // 
-            // button39
-            // 
-            button39.Location = new Point(355, 943);
-            button39.Name = "button39";
-            button39.Size = new Size(114, 34);
-            button39.TabIndex = 69;
-            button39.Text = "EXCLUIR";
-            button39.UseVisualStyleBackColor = true;
-            // 
-            // button37
-            // 
-            button37.Location = new Point(589, 943);
-            button37.Name = "button37";
-            button37.Size = new Size(114, 34);
-            button37.TabIndex = 67;
-            button37.Text = "EXCLUIR";
-            button37.UseVisualStyleBackColor = true;
-            // 
-            // button35
-            // 
-            button35.Location = new Point(589, 811);
-            button35.Name = "button35";
-            button35.Size = new Size(114, 34);
-            button35.TabIndex = 65;
-            button35.Text = "EXCLUIR";
-            button35.UseVisualStyleBackColor = true;
-            // 
-            // button33
-            // 
-            button33.Location = new Point(355, 811);
-            button33.Name = "button33";
-            button33.Size = new Size(114, 34);
-            button33.TabIndex = 63;
-            button33.Text = "EXCLUIR";
-            button33.UseVisualStyleBackColor = true;
-            // 
-            // button31
-            // 
-            button31.Location = new Point(116, 811);
-            button31.Name = "button31";
-            button31.Size = new Size(114, 34);
-            button31.TabIndex = 61;
-            button31.Text = "EXCLUIR";
-            button31.UseVisualStyleBackColor = true;
-            // 
             // posterRei
             // 
             posterRei.Image = Properties.Resources.ReiAdd;
@@ -1654,141 +1459,6 @@
             posterAteQueASorteNosSepare.Size = new Size(94, 136);
             posterAteQueASorteNosSepare.TabIndex = 45;
             posterAteQueASorteNosSepare.TabStop = false;
-            // 
-            // button30
-            // 
-            button30.Location = new Point(589, 104);
-            button30.Name = "button30";
-            button30.Size = new Size(114, 34);
-            button30.TabIndex = 44;
-            button30.Text = "EXCLUIR";
-            button30.UseVisualStyleBackColor = true;
-            // 
-            // button29
-            // 
-            button29.Location = new Point(355, 104);
-            button29.Name = "button29";
-            button29.Size = new Size(114, 34);
-            button29.TabIndex = 43;
-            button29.Text = "EXCLUIR";
-            button29.UseVisualStyleBackColor = true;
-            // 
-            // button28
-            // 
-            button28.Location = new Point(116, 104);
-            button28.Name = "button28";
-            button28.Size = new Size(114, 34);
-            button28.TabIndex = 42;
-            button28.Text = "EXCLUIR";
-            button28.UseVisualStyleBackColor = true;
-            // 
-            // button27
-            // 
-            button27.Location = new Point(589, 674);
-            button27.Name = "button27";
-            button27.Size = new Size(114, 34);
-            button27.TabIndex = 41;
-            button27.Text = "EXCLUIR";
-            button27.UseVisualStyleBackColor = true;
-            // 
-            // button26
-            // 
-            button26.Location = new Point(116, 674);
-            button26.Name = "button26";
-            button26.Size = new Size(114, 34);
-            button26.TabIndex = 40;
-            button26.Text = "EXCLUIR";
-            button26.UseVisualStyleBackColor = true;
-            // 
-            // button25
-            // 
-            button25.Location = new Point(355, 674);
-            button25.Name = "button25";
-            button25.Size = new Size(114, 34);
-            button25.TabIndex = 39;
-            button25.Text = "EXCLUIR";
-            button25.UseVisualStyleBackColor = true;
-            // 
-            // button24
-            // 
-            button24.Location = new Point(589, 534);
-            button24.Name = "button24";
-            button24.Size = new Size(114, 34);
-            button24.TabIndex = 38;
-            button24.Text = "EXCLUIR";
-            button24.UseVisualStyleBackColor = true;
-            // 
-            // button23
-            // 
-            button23.Location = new Point(589, 382);
-            button23.Name = "button23";
-            button23.Size = new Size(114, 34);
-            button23.TabIndex = 37;
-            button23.Text = "EXCLUIR";
-            button23.UseVisualStyleBackColor = true;
-            // 
-            // button22
-            // 
-            button22.Location = new Point(589, 242);
-            button22.Name = "button22";
-            button22.Size = new Size(114, 34);
-            button22.TabIndex = 36;
-            button22.Text = "EXCLUIR";
-            button22.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            button21.Location = new Point(116, 534);
-            button21.Name = "button21";
-            button21.Size = new Size(114, 34);
-            button21.TabIndex = 35;
-            button21.Text = "EXCLUIR";
-            button21.UseVisualStyleBackColor = true;
-            // 
-            // button20
-            // 
-            button20.Location = new Point(116, 242);
-            button20.Name = "button20";
-            button20.Size = new Size(114, 34);
-            button20.TabIndex = 34;
-            button20.Text = "EXCLUIR";
-            button20.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            button19.Location = new Point(355, 242);
-            button19.Name = "button19";
-            button19.Size = new Size(114, 34);
-            button19.TabIndex = 33;
-            button19.Text = "EXCLUIR";
-            button19.UseVisualStyleBackColor = true;
-            // 
-            // button18
-            // 
-            button18.Location = new Point(355, 534);
-            button18.Name = "button18";
-            button18.Size = new Size(114, 34);
-            button18.TabIndex = 32;
-            button18.Text = "EXCLUIR";
-            button18.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            button17.Location = new Point(355, 382);
-            button17.Name = "button17";
-            button17.Size = new Size(114, 34);
-            button17.TabIndex = 31;
-            button17.Text = "EXCLUIR";
-            button17.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            button14.Location = new Point(116, 382);
-            button14.Name = "button14";
-            button14.Size = new Size(114, 34);
-            button14.TabIndex = 28;
-            button14.Text = "EXCLUIR";
-            button14.UseVisualStyleBackColor = true;
             // 
             // btnAddABailarina
             // 
@@ -1966,7 +1636,7 @@
             btnVoltarTelaInicial.Name = "btnVoltarTelaInicial";
             btnVoltarTelaInicial.Size = new Size(159, 51);
             btnVoltarTelaInicial.TabIndex = 4;
-            btnVoltarTelaInicial.Text = "AVANÇAR";
+            btnVoltarTelaInicial.Text = "VOLTAR";
             btnVoltarTelaInicial.UseVisualStyleBackColor = true;
             btnVoltarTelaInicial.Click += btnVoltarTelaInicial_Click;
             // 
@@ -2037,21 +1707,6 @@
         private PictureBox posterFabrica;
         private PictureBox posterCentralDoBrasil;
         private PictureBox posterCasa;
-        private Button button30;
-        private Button button29;
-        private Button button28;
-        private Button button27;
-        private Button button26;
-        private Button button25;
-        private Button button24;
-        private Button button23;
-        private Button button22;
-        private Button button21;
-        private Button button20;
-        private Button button19;
-        private Button button18;
-        private Button button17;
-        private Button button14;
         private Button btnAddABailarina;
         private PictureBox posterABelaEAfera;
         private PictureBox posterRainha;
@@ -2069,21 +1724,6 @@
         private PictureBox posterUrsos;
         private PictureBox posterKillBill1;
         private PictureBox posterQuestao;
-        private Button button45;
-        private Button button43;
-        private Button button41;
-        private Button button39;
-        private Button button37;
-        private Button button35;
-        private Button button33;
-        private Button button31;
-        private Button button59;
-        private Button button57;
-        private Button button55;
-        private Button button53;
-        private Button button51;
-        private Button button49;
-        private Button button47;
         private Label label2;
         private Label label1;
         private Label label5;
@@ -2141,7 +1781,6 @@
         private Button btnAdicionarAteQueASorteNosSepare;
         private Button btnAdicionarJohnWick;
         private Button btnAdicionarCentralDoBrasil;
-        private Button btnAdicionarBrilho;
         private Button btnAdicionarMulan;
         private Button btnAdicionarFrozen2;
         private Button btnAdicionarFabrica;
@@ -2170,7 +1809,6 @@
         private Button btnAdicionarQuestao;
         private Button btnAdicionarFarofeiros;
         private Button btnAdicionarSoulmate;
-        private Button btnAdicionarCasa;
         private PictureBox pictureBox31;
         private Button btnIrParaLista;
         private Button btnCriarLista;
@@ -2178,5 +1816,7 @@
         private Label label59;
         private Label label60;
         private Button btnVoltarTelaInicial;
+        private Button btnAdicionarCasa;
+        private Button btnAdicionarBrilho;
     }
 }

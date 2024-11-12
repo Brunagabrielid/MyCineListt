@@ -32,9 +32,8 @@ namespace AplicativoMyCineList
         }
 
         private void btnAddABailarina_Click(object sender, EventArgs e)
+       
         {
-            // Enquanto o app roda, os nomes dos filmes são salvos na listbox quando o usuário clica no botão de adicionar o filme //
-
             string Bailarina = "Bailarina - (2023)";
 
             if (DadosGlobais.filmesSalvos.Contains(Bailarina))
@@ -46,14 +45,14 @@ namespace AplicativoMyCineList
                 DadosGlobais.filmesSalvos.Add(Bailarina);
             }
 
-            // Código para o botão indicar a seleção e mostrar o poster | tela temporária //
-
             filmesSelecionadosPeloUsuario.Add(posterABailarina);
             btnAddABailarina.Text = "ADICIONADO";
             btnAddABailarina.ForeColor = Color.White;
             btnAddABailarina.BackColor = Color.LightCoral;
         }
+
         private void btnAdicionarBelaEAFera_Click(object sender, EventArgs e)
+
         {
             string aBelaeaFera = "A Bela e a Fera - Live Action (2017)";
 

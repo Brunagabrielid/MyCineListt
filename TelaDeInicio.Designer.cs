@@ -32,7 +32,6 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            button4 = new Button();
             button5 = new Button();
             pictureBox10 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -135,7 +134,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(529, 142);
+            button1.Location = new Point(529, 194);
             button1.Name = "button1";
             button1.Size = new Size(367, 51);
             button1.TabIndex = 9;
@@ -150,7 +149,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ButtonFace;
-            button2.Location = new Point(529, 199);
+            button2.Location = new Point(529, 251);
             button2.Name = "button2";
             button2.Size = new Size(367, 51);
             button2.TabIndex = 10;
@@ -165,7 +164,7 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = Color.Lavender;
-            button3.Location = new Point(529, 256);
+            button3.Location = new Point(529, 308);
             button3.Name = "button3";
             button3.Size = new Size(367, 51);
             button3.TabIndex = 11;
@@ -173,40 +172,26 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
-            // button4
-            // 
-            button4.BackColor = Color.Violet;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.ForeColor = SystemColors.ButtonFace;
-            button4.Location = new Point(529, 313);
-            button4.Name = "button4";
-            button4.Size = new Size(367, 51);
-            button4.TabIndex = 12;
-            button4.Text = "AVALIAR FILMES | EXTRA (TALVEZ N ENTRA)";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
-            // 
             // button5
             // 
-            button5.BackColor = Color.Plum;
+            button5.BackColor = Color.MediumOrchid;
             button5.FlatAppearance.BorderSize = 0;
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button5.ForeColor = SystemColors.ButtonFace;
-            button5.Location = new Point(529, 370);
+            button5.Location = new Point(529, 365);
             button5.Name = "button5";
             button5.Size = new Size(367, 51);
             button5.TabIndex = 13;
             button5.Text = "SAIR DO APLICATIVO";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // pictureBox10
             // 
             pictureBox10.BackColor = Color.Transparent;
             pictureBox10.Image = Properties.Resources.LogoAzul_removebg_preview;
-            pictureBox10.Location = new Point(574, 1);
+            pictureBox10.Location = new Point(574, 51);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(288, 135);
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
@@ -221,7 +206,6 @@
             ClientSize = new Size(925, 529);
             Controls.Add(pictureBox10);
             Controls.Add(button5);
-            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -264,7 +248,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
-        private Button button4;
         private Button button5;
         private PictureBox pictureBox10;
     }

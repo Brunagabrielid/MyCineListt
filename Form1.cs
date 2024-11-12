@@ -2,7 +2,7 @@ namespace AplicativoMyCineList
 {
     public partial class TeladeAbertura : Form
     {
-        
+
         public TeladeAbertura()
         {
             InitializeComponent();
@@ -17,6 +17,11 @@ namespace AplicativoMyCineList
             TelaDeInicio telaDeInicio = new TelaDeInicio();
             telaDeInicio.Show();
             this.Hide();
+        }
+
+        private void TeladeAbertura_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -28,13 +28,14 @@ namespace AplicativoMyCineList
 
         public void SelecioneOFilmeShow()
         {
-            cmb_nomesFilmes.Items.Add("A Bailarina");
+
             cmb_nomesFilmes.Items.Add("A Bela e a Fera");
             cmb_nomesFilmes.Items.Add("A Casa Monstro");
             cmb_nomesFilmes.Items.Add("A Fantástica Fábrica de Chocolates");
             cmb_nomesFilmes.Items.Add("A Pequena Sereia");
             cmb_nomesFilmes.Items.Add("Até que a Sorte nos Separe");
             cmb_nomesFilmes.Items.Add("Bacurau");
+            cmb_nomesFilmes.Items.Add("Bailarina");
             cmb_nomesFilmes.Items.Add("Barbie");
             cmb_nomesFilmes.Items.Add("Brilho Eterno de uma Mente Sem Lembranças");
             cmb_nomesFilmes.Items.Add("Central do Brasil");
@@ -75,7 +76,7 @@ namespace AplicativoMyCineList
             string titulo = "";
             string diretor = "";
             string nomeoriginal = "";
-            
+
 
 
             if (FilmeEscolhido == "A Bela e a Fera")
@@ -83,7 +84,7 @@ namespace AplicativoMyCineList
 
                 BackgroundImage = Properties.Resources.ABelaEAFeraaDetalhes;
                 pictureBox1.Image = Properties.Resources.BelaAdd;
-                nomeoriginal = "A Bela e a Fera";
+                nomeoriginal = "Nome em Português: A Bela e a Fera";
                 titulo = "Nome Original: La Belle et la Bête";
                 sinopsedofilme = "Bela é uma jovem sensível e compreensiva, que sempre põe os outros em primeiro lugar. Quando seu pai se vê em uma situação complicada após contrair uma dívida e perder sua liberdade, ela não hesita em viver em um castelo ao lado de um ser horrível para que possa salvá-lo. Também prisioneira, mas tratada como convidada na opulenta mansão, Bela começa a enxergar a beleza do caráter da misteriosa criatura e passa a sentir afeto por ele.";
                 duracao = "Duração: 1 hora e 52 minutos";
@@ -94,9 +95,9 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "A Casa Monstro")
             {
-                BackgroundImage = Properties.Resources.CasaDetalhes;
+                BackgroundImage = Properties.Resources.CasaDetalhes1;
                 pictureBox1.Image = Properties.Resources.CasaAdd;
-                nomeoriginal = "A Casa Monstro";
+                nomeoriginal = "Nome em Português: A Casa Monstro";
                 titulo = "Nome Original: Monster House";
                 sinopsedofilme = "Nenhum adulto acredita quando três adolescentes falam que existe uma casa no bairro que é uma criatura perigosa. Com o Dia das Bruxas se aproximando, eles têm que descobrir uma forma de destruir a casa antes que ela faça mal a crianças inocentes.";
                 duracao = "Duração: 1 hora e 31 minutos";
@@ -109,7 +110,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.AFantásticaFábricaDetalhes;
                 pictureBox1.Image = Properties.Resources.FabricaAdd;
-                nomeoriginal = "A Fantástica Fábrica de Chocolates";
+                nomeoriginal = "Nome em Português: A Fantástica Fábrica de Chocolates";
                 titulo = "Nome Original: Charlie and the Chocolate Factory";
                 sinopsedofilme = "Willy Wonka (Johnny Depp) é o excêntrico dono da maior fábrica de doces do planeta, que decide realizar um concurso mundial para escolher um herdeiro para seu império. Cinco crianças de sorte, entre elas Charlie Bucket (Freddie Highmore), encontram um convite dourado em barras de chocolate Wonka e com isso ganham uma visita guiada pela lendária fábrica de chocolate, que não era visitada por ninguém há 15 anos. Encantado com as maravilhas da fábrica, Charlie fica cada vez mais fascinado com a visita.";
                 duracao = "Duração: 1 hora e 55 minutos";
@@ -121,8 +122,8 @@ namespace AplicativoMyCineList
             else if (FilmeEscolhido == "A Pequena Sereia")
             {
                 BackgroundImage = Properties.Resources.SereiaDetalhes;
-                pictureBox1.Image = Properties.Resources.APequenaSereiaAdd; 
-                nomeoriginal = "A Pequena Sereia";
+                pictureBox1.Image = Properties.Resources.APequenaSereiaAdd;
+                nomeoriginal = "Nome em Português: A Pequena Sereia";
                 titulo = "Nome Original: The Little Mermaid";
                 sinopsedofilme = "Remake live action do clássico desenho animado A Pequena Sereia, de 1989, da Disney. A caçula das filhas do Rei Tritão (Javier Bardem), Ariel (Halle Bailey) é uma bela e espirituosa jovem sereia com sede de aventura. Desejando descobrir mais sobre o mundo além do mar, Ariel visita a superfície e se apaixona intensamente pelo arrojado Príncipe Eric (Jonah Hauer-King), ao salvá-lo de um naufrágio. Mas para procurá-lo em terra firme e se aproximar do príncipe humano, a sereia pede ajuda à bruxa do mar, Úrsula (Melissa McCarthy), e aceita ceder sua voz para que a feiticeira lhe dê pernas. Agora, ela terá o desafio de se comunicar com o rapaz ao experimentar a vida em terra firme, além de entrar em conflito com os valores de sua família. \"A Pequena Sereia\" é um conto de fadas literário escrito pelo autor dinamarquês Hans Christian Andersen, publicado pela primeira vez em 1837.";
                 duracao = "Duração: 2 horas e 16 minutos";
@@ -158,10 +159,11 @@ namespace AplicativoMyCineList
                 atores = "Elenco Principal: Sônia Braga, Udo Kier, Barbara Colen";
                 diretor = "Dirigido por: Kleber Mendonça Filho, Juliano Dornelles";
             }
-            else if (FilmeEscolhido == "A Bailarina")
+            else if (FilmeEscolhido == "Bailarina")
             {
                 BackgroundImage = Properties.Resources.ABailarinaaaDetalhes;
                 pictureBox1.Image = Properties.Resources.BallerinaAdd;
+                nomeoriginal = "Nome em Português: Bailarina";
                 titulo = "Nome Original: Ballerina";
                 sinopsedofilme = "Em A Bailarina, neste suspense de ação e vingança, a impiedosa ex-guarda-costas Ok-ju (Jun Jong-seo) persegue Choi (Kim Ji-hun), o homem responsável pela morte de sua melhor amiga Min-hee (Park Yu-rim), a quem jurou vingar.";
                 duracao = "Duração: 1 hora e 32 minutos";
@@ -175,7 +177,7 @@ namespace AplicativoMyCineList
 
                 BackgroundImage = Properties.Resources.BarbieDetalhes;
                 pictureBox1.Image = Properties.Resources.BarbieAdd;
-                nomeoriginal = "Barbie";
+                nomeoriginal = "Nome em Português: Barbie";
                 titulo = "Nome Original: Barbie";
                 sinopsedofilme = "Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.";
                 duracao = "Duração: 1 hora e 54 minutos";
@@ -188,7 +190,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.BrilhoDetalhes;
                 pictureBox1.Image = Properties.Resources.BrilhoAdd;
-                nomeoriginal = "Brilho Eterno de uma Mente Sem Lembranças";
+                nomeoriginal = "Nome em Português: Brilho Eterno de uma Mente Sem Lembranças";
                 titulo = "Nome Original: Eternal Sunshine of the Spotless Mind";
                 sinopsedofilme = "Joel se surpreende ao saber que seu amor verdadeiro, Clementine, o apagou completamente de sua memória. Ele decide fazer o mesmo, mas muda de ideia. Preso dentro da própria mente enquanto os especialistas se mantêm ocupados em seu apartamento, Joel precisa avisá-los para parar.";
                 duracao = "Duração: 1 hora e 48 minutos";
@@ -212,7 +214,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Farofeiros")
             {
-              //  BackgroundImage = Properties.Resources.;
+                BackgroundImage = Properties.Resources.OsFarofeirosDetalhes;
                 pictureBox1.Image = Properties.Resources.FarofeirosAdd;
                 nomeoriginal = "Os Farofeiros";
                 titulo = "Nome Original: Os Farofeiros";
@@ -227,7 +229,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.Frozen1Detalhes;
                 pictureBox1.Image = Properties.Resources.FrozenAdd;
-                nomeoriginal = "Frozen I";
+                nomeoriginal = "Nome em Português: Frozen I";
                 titulo = "Nome Original: Frozen";
                 sinopsedofilme = "Acompanhada por um vendedor de gelo, a jovem e destemida princesa Anna parte em uma jornada por perigosas montanhas de gelo na esperança de encontrar sua irmã, a rainha Elsa, e acabar com a terrível maldição de inverno eterno, que está provocando o congelamento do reino.";
                 duracao = "Duração: 1 hora e 42 minutos";
@@ -238,9 +240,9 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Frozen II")
             {
-               //BackgroundImage = Properties.Resources.;
+                BackgroundImage = Properties.Resources.Frozen2Detalhes;
                 pictureBox1.Image = Properties.Resources.Frozen2Add;
-                nomeoriginal = "Frozen II";
+                nomeoriginal = "Nome em Português: Frozen II";
                 titulo = "Nome Original: Frozen II";
                 sinopsedofilme = "Na trama de Frozen 2, de volta à infância de Elsa e Anna, as duas irmãs descobrem uma história do pai, quando ainda era príncipe de Arendelle. Ele conta às meninas a história de uma visita à floresta dos elementos, onde um acontecimento inesperado teria provocado a separação dos habitantes da cidade com os quatro elementos fundamentais: ar, fogo, terra e água. Esta revelação ajudará Elsa a compreender a origem de seus poderes.";
                 duracao = "Duração: 1 hora e 44 minutos";
@@ -252,9 +254,9 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "John Wick")
             {
-              //  BackgroundImage = Properties.Resources.;
+                BackgroundImage = Properties.Resources.JohnWickDetalhessss;
                 pictureBox1.Image = Properties.Resources.JohnWickAdd;
-                nomeoriginal = "John Wick";
+                nomeoriginal = "Nome em Português: John Wick - De Volta ao Jogo";
                 titulo = "Nome Original: John Wick";
                 sinopsedofilme = "John Wick (Keanu Reeves) já foi um dos assassinos mais temidos da cidade de Nova York, trabalhando em parceria com a máfia russa. Um dia, ele decide se aposentar, e neste período tem que lidar com a triste morte de sua esposa. Vítima de uma doença grave, ela já previa a sua própria morte, e deu de presente ao marido um cachorro para cuidar em seu período de luto. No entanto, poucos dias após o funeral, o cachorro é morto por ladrões que roubam o seu carro. John Wick parte em busca de vingança contra estes homens que ele já conhecia muito bem, e que roubaram o último símbolo da mulher que ele amava.";
                 duracao = "Duração: 1 hora e 41 minutos";
@@ -266,9 +268,9 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Kill Bill Vol. 1")
             {
-            //  BackgroundImage = Properties.Resources.;
-                pictureBox1.Image = Properties.Resources.KillBillAdd;
-                nomeoriginal = "Kill Bill Vol. 1";
+                BackgroundImage = Properties.Resources.KB1Detalhessssss;
+                pictureBox1.Image = Properties.Resources.KB1add;
+                nomeoriginal = "Nome em Português: Kill Bill Vol. 1";
                 titulo = "Nome Original: Kill Bill Vol. 1";
                 sinopsedofilme = "A Noiva (Uma Thurman) é uma perigosa assassina que trabalhava em um grupo, liderado por Bill (David Carradine), composto principalmente por mulheres. Grávida, ela decide escapar dessa vida de violência e decide se casar, mas no dia da cerimônia seus companheiros de trabalho se voltam contra ela, quase a matando. Após cinco anos em coma, ela desperta sem um bebê e com um único desejo: vingança. A Noiva decide procurar, e matar, as cinco pessoas que destruiram o seu futuro, começando pelas perigosas assassinas Vernita Green (Vivica A. Fox) e O-Ren Ishii (Lucy Liu).";
                 duracao = "Duração: 1 hora e 52 minutos";
@@ -280,9 +282,9 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Kill Bill Vol. 2")
             {
-              //  BackgroundImage = Properties.Resources.;
-                pictureBox1.Image = Properties.Resources.KB1add;
-                nomeoriginal = "Kill Bill Vol. 2";
+                BackgroundImage = Properties.Resources.KB2Detalhessss;
+                pictureBox1.Image = Properties.Resources.KillBillAdd;
+                nomeoriginal = "Nome em Português: Kill Bill Vol. 2";
                 titulo = "Nome Original: Kill Bill Vol. 2";
                 sinopsedofilme = "Noiva assassina é traída por antigo grupo e fica em coma por quatro anos. Quando acorda, procura vingança e mata seus companheiros um por um. Ao confrontar seu antigo mestre e amante, uma surpresa a espera.";
                 duracao = "Duração: 2 horas e 15 minutos";
@@ -295,9 +297,9 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Mulan")
             {
-               BackgroundImage = Properties.Resources.MulanDetalhes;
+                BackgroundImage = Properties.Resources.MulanDetalhes;
                 pictureBox1.Image = Properties.Resources.MulanAdd;
-                nomeoriginal = "Mulan";
+                nomeoriginal = "Nome em Português: Mulan";
                 titulo = "Nome Original: Mulan";
                 sinopsedofilme = "Em Mulan, Hua Mulan (Liu Yifei) é a espirituosa e determinada filha mais velha de um honrado guerreiro. Quando o Imperador da China emite um decreto que um homem de cada família deve servir no exército imperial, Mulan decide tomar o lugar de seu pai, que está doente. Assumindo a identidade de Hua Jun, ela se disfarça de homem para combater os invasores que estão atacando sua nação, provando-se uma grande guerreira.";
                 duracao = "Duração: 1 hora e 55 minutos";
@@ -311,7 +313,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.MyNameDetalhes;
                 pictureBox1.Image = Properties.Resources.MyNameAdd;
-                nomeoriginal = "My Name";
+                nomeoriginal = "Nome em Português: My Name";
                 titulo = "Nome Internacional: My Name";
                 sinopsedofilme = "My Name, série sul-coreana original da Netflix, acompanha Yoon ji-woo (Han So-hee), uma mulher que, após presenciar o assassinato do pai, busca vingança a todo custo. Ela deposita sua confiança em um chefão do crime organizado da Córeia do Sul que promete justiça a ela. Sob seu comando, Yoon ji-woo entra para polícia coreana na intenção de se tornar informante para ele.";
                 duracao = "Série: 50 Minutos por Episódio | 8 Episódios";
@@ -325,7 +327,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.CentralDoBrasilDetalhes__2_;
                 pictureBox1.Image = Properties.Resources.NANAadd;
-                nomeoriginal = "Nana";
+                nomeoriginal = "Nome em Português: Nana";
                 titulo = "Nome Internacional: Nana";
                 sinopsedofilme = "Duas mulheres com o mesmo nome e personalidades completamente diferentes chegam a Tóquio para um novo começo.";
                 duracao = "Série: 22 minutos por Episódio | 47 Episódios";
@@ -337,9 +339,9 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "O Amor Mora ao Lado")
             {
-              //  BackgroundImage = Properties.Resources.;
+                BackgroundImage = Properties.Resources.LoveNextDoorDetalhes;
                 pictureBox1.Image = Properties.Resources.LoveNextDoorAdd;
-                nomeoriginal = "O Amor Mora ao Lado";
+                nomeoriginal = "Nome em Português: O Amor Mora ao Lado";
                 titulo = "Nome Internacional: Love Next Door";
                 sinopsedofilme = "Na tentativa de recomeçar a vida, uma mulher retorna à Coreia e se envolve com alguém do passado. O problema é que existe uma história complicada entre os dois.";
                 duracao = "Série: 1 hora por Episódio | 16 Episódios";
@@ -351,9 +353,9 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "O Jogo da Morte")
             {
-             //  BackgroundImage = Properties.Resources.;
+                BackgroundImage = Properties.Resources.JogoDetalhes;
                 pictureBox1.Image = Properties.Resources.JogoDaMAdd;
-                nomeoriginal = "O Jogo da Morte";
+                nomeoriginal = "Nome em Português: O Jogo da Morte";
                 titulo = "Nome Internacional: Death's Game";
                 sinopsedofilme = "Em O Jogo da Morte, um homem precisa viver 12 vidas e passar por 12 mortes para não ir para o inferno. Yee-jay (Seo In-guk) é deixado pela namorada e perde o dinheiro que lhe restava em um golpe de bitcoin. Completamente desesperado, ele comete suicídio, mas a morte se recusa a aceitar o desrespeito aos seus planos e o obriga a passar por um jogo. Yee-jay precisará viver 12 vidas diferentes e morrer 12 vezes e, caso ele sobreviva a alguma delas, viverá naquela encarnação. Caso contrário, está fadado a passar a eternidade no inferno.";
                 duracao = "Série: 45 minutos por Episódio | 6 Episódios";
@@ -367,7 +369,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.ReiDetalhes;
                 pictureBox1.Image = Properties.Resources.ReiAdd;
-                nomeoriginal = "O Rei do Show";
+                nomeoriginal = "Nome em Português: O Rei do Show";
                 titulo = "Nome Original: The Greatest Showman";
                 sinopsedofilme = "De origem humilde e desde a infância sonhando com um mundo mágico, P.T. Barnum (Hugh Jackman) desafia as barreiras sociais se casando com a filha do patrão do pai e dá o pontapé inicial na realização de seu maior desejo abrindo uma espécie de museu de curiosidades. O empreendimento fracassa, mas ele logo vislumbra uma ousada saída: produzir um grande show estrelado por freaks, fraudes, bizarrices e rejeitados de todos os tipos.";
                 duracao = "Duração: 1 hora e 44 minutos";
@@ -381,7 +383,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.OperacaoDetalhes;
                 pictureBox1.Image = Properties.Resources.OperacaoAdd;
-                nomeoriginal = "Operação Cupido";
+                nomeoriginal = "Nome em Português: Operação Cupido";
                 titulo = "Nome Original: The Parent Trap";
                 sinopsedofilme = "As gêmeas Hallie e Annie (Lindsay Lohan) foram separadas ainda pequenas. Uma ficou com a mãe, Elizabeth (Natasha Richardson), e outra com o pai, Nicholas (Dennis Quaid). Um dia as duas se encontram num acampamento de verão e se dão conta do parentesco até então desconhecido. Elas trocam de lugar na volta para a casa e elaboram um plano para que o casal volte às boas e a família enfim possa se reunir.";
                 duracao = "Duração: 2 horas e 8 minutos";
@@ -392,11 +394,11 @@ namespace AplicativoMyCineList
             }
 
             else if (FilmeEscolhido == "Pulp Fiction")
-               
+
             {
                 BackgroundImage = Properties.Resources.PulpFictionDetalhes;
                 pictureBox1.Image = Properties.Resources.PulpAdd;
-                nomeoriginal = "Pulp Fiction";
+                nomeoriginal = "Nome em Português: Pulp Fiction";
                 titulo = "Nome Original: Pulp Fiction";
                 sinopsedofilme = "Vincent Vega (John Travolta) e Jules Winnfield (Samuel L. Jackson) são dois assassinos profissionais trabalham fazendo cobranças para Marsellus Wallace (Ving Rhames), um poderosos gângster. Vega é forçado a sair com a garota do chefe, temendo passar dos limites; enquanto isso, o pugilista Butch Coolidge (Bruce Willis) se mete em apuros por ganhar luta que deveria perder.";
                 duracao = "Duração: 2 horas e 29 minutos";
@@ -410,7 +412,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.QuestãodeTempoDetalhes;
                 pictureBox1.Image = Properties.Resources.QuestaoAdd;
-                nomeoriginal = "Questão de Tempo";
+                nomeoriginal = "Nome em Português: Questão de Tempo";
                 titulo = "Nome Original: About Time";
                 sinopsedofilme = "Ao completar 21 anos, Tim (Domhnall Gleeson) é surpreendido com a notícia dada por seu pai (Bill Nighy) de que pertence a uma linhagem de viajantes no tempo. Ou seja, todos os homens da família conseguem viajar para o passado, bastando apenas ir para um local escuro e pensar na época e no local para onde deseja ir. Cético a princípio, Tim logo se empolga com o dom ao ver que seu pai não está mentindo. Sua primeira decisão é usar esta capacidade para conseguir uma namorada, mas logo ele percebe que viajar no tempo e alterar o que já aconteceu pode provocar consequências inesperadas.";
                 duracao = "Duração: 2 horas e 3 minutos";
@@ -424,7 +426,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.CentralDoBrasilDetalhes__3_;
                 pictureBox1.Image = Properties.Resources.RainhaAdd;
-                nomeoriginal = "Rainha das Lágrimas";
+                nomeoriginal = "Nome em Português: Rainha das Lágrimas";
                 titulo = "Nome Internacional: Queen Of Tears";
                 sinopsedofilme = "Em Rainha das Lágrimas, um casal de magnatas supera uma crise matrimonial ainda que tudo esteja contra eles. No drama coreano, Hyun-woo (Kim Soo-hyun), o diretor de uma rede de supermercados e Hae-in (Kim Ji-won), uma herdeira chaebol de um império de lojas de departamento, se apaixonam intensamente na juventude e logo se casam. O tempo passa e eles entram em uma profunda crise no casamento, mas quando tudo aponta para o pior, o amor volta a florescer e eles vão superando as dificuldades juntos.";
                 duracao = "Série: 1 hora e meia por Episódio | 16 Episódios ";
@@ -437,7 +439,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.RapunzelDetalhes;
                 pictureBox1.Image = Properties.Resources.RapunzelAdd;
-                nomeoriginal = "Rapunzel";
+                nomeoriginal = "Nome em Português: Rapunzel";
                 titulo = "Nome Original: Tangled";
                 sinopsedofilme = "Flynn Ryder (Zachary Levi/Luciano Huck) é o bandido mais procurado e sedutor do reino. Um dia, em plena fuga, ele se esconde em uma torre. Lá conhece Rapunzel (Mandy Moore), uma jovem prestes a completar 18 anos que tem um enorme cabelo dourado, de 21 metros de comprimento. Rapunzel deseja deixar seu confinamento na torre para ver as luzes que sempre surgem no dia de seu aniversário. Para tanto, faz um acordo com Flynn. Ele a ajuda a fugir e ela lhe devolve a valiosa tiara que tinha roubado. Só que a mamãe Gothel (Donna Murphy), que manteve Rapunzel na torre durante toda a sua vida, não quer que ela deixe o local de jeito nenhum.";
                 duracao = "Duração: 1 hora e 41 minutos";
@@ -451,7 +453,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.SoulmateDetalhes;
                 pictureBox1.Image = Properties.Resources.SoulmateAdd;
-                nomeoriginal = "Soulmate";
+                nomeoriginal = "Nome em Português: Soulmate (Alma Gêmea)";
                 titulo = "Nome Internacional: Soulmate";
                 sinopsedofilme = "Duas meninas se conheceram aos 13 anos e se tornaram amigas. Pelos próximos 14 anos, as duas meninas experimentam amor, ciúme e crescimento pessoal.";
                 duracao = "Duração: 2 horas e 4 minutos";
@@ -465,7 +467,7 @@ namespace AplicativoMyCineList
             {
                 BackgroundImage = Properties.Resources.UrsosDetalhes;
                 pictureBox1.Image = Properties.Resources.UrsoAdd;
-                nomeoriginal = "Urso Sem Curso";
+                nomeoriginal = "Nome em Português: Urso Sem Curso";
                 titulo = "Nome Original: We Bare Bears";
                 sinopsedofilme = "Pardo, Panda e Polar são apenas três forasteiros tentando encontrar uma maneira de se adaptar. Se, pelo caminho, eles conseguirem algum sorvete, melhor ainda. Ser um urso no mundo moderno e civilizado não é nada fácil.";
                 duracao = "Série: 11 minutos por Episódio | 140 Episódios";
@@ -480,8 +482,8 @@ namespace AplicativoMyCineList
                 BackgroundImage = Properties.Resources.YourNameDetalhes;
                 pictureBox1.Image = Properties.Resources.YourNameAdd;
                 // nome original na verdade se refere ao BR-PT //
-                nomeoriginal = "Seu Nome";
-                titulo = "Nome Internaci;onal: Your Name";
+                nomeoriginal = "Nome em Português: Seu Nome";
+                titulo = "Nome Internacional: Your Name";
                 sinopsedofilme = "Dois estranhos estão ligados de uma maneira bizarra, mais quando uma conexão é formada, a distância será a única coisa que os manterá separados?";
                 duracao = "Duração: 1 hora e 50 minutos";
                 pais = "Pais de origem: Japão, 2016";
@@ -490,7 +492,7 @@ namespace AplicativoMyCineList
 
             }
 
-           
+
 
             SinopseDoFilme.Text = sinopsedofilme;
             NomeDoFilme.Text = titulo;
@@ -499,10 +501,16 @@ namespace AplicativoMyCineList
             DuracaoDoFilme.Text = duracao;
             AtoresPrincipais.Text = atores;
             label1.Text = nomeoriginal;
-           
+
 
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            TelaDeInicio telaDeInicio = new TelaDeInicio();
+            telaDeInicio.Show();
+            this.Hide();
+        }
     }
 }
