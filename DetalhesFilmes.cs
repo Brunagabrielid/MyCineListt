@@ -80,6 +80,8 @@ namespace AplicativoMyCineList
 
             if (FilmeEscolhido == "A Bela e a Fera")
             {
+
+                BackgroundImage = Properties.Resources.ABelaEAFeraaDetalhes;
                 pictureBox1.Image = Properties.Resources.BelaAdd;
                 nomeoriginal = "A Bela e a Fera";
                 titulo = "Nome Original: La Belle et la Bête";
@@ -92,6 +94,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "A Casa Monstro")
             {
+                BackgroundImage = Properties.Resources.CasaDetalhes;
                 pictureBox1.Image = Properties.Resources.CasaAdd;
                 nomeoriginal = "A Casa Monstro";
                 titulo = "Nome Original: Monster House";
@@ -104,6 +107,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "A Fantástica Fábrica de Chocolates")
             {
+                BackgroundImage = Properties.Resources.AFantásticaFábricaDetalhes;
                 pictureBox1.Image = Properties.Resources.FabricaAdd;
                 nomeoriginal = "A Fantástica Fábrica de Chocolates";
                 titulo = "Nome Original: Charlie and the Chocolate Factory";
@@ -116,6 +120,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "A Pequena Sereia")
             {
+                BackgroundImage = Properties.Resources.SereiaDetalhes;
                 pictureBox1.Image = Properties.Resources.APequenaSereiaAdd; 
                 nomeoriginal = "A Pequena Sereia";
                 titulo = "Nome Original: The Little Mermaid";
@@ -128,6 +133,8 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Até que a Sorte nos Separe")
             {
+
+                BackgroundImage = Properties.Resources.AqaMnSDetalhes;
                 pictureBox1.Image = Properties.Resources.AQAMNSadd;
                 nomeoriginal = "Até que a Sorte nos Separe";
                 titulo = "Nome Original: Até que a Sorte nos Separe";
@@ -141,6 +148,7 @@ namespace AplicativoMyCineList
             else if (FilmeEscolhido == "Bacurau")
 
             {
+                BackgroundImage = Properties.Resources.BacurauDetalhes;
                 pictureBox1.Image = Properties.Resources.BacurauAdd;
                 nomeoriginal = "Bacurau";
                 titulo = "Nome Original: Bacurau";
@@ -152,6 +160,7 @@ namespace AplicativoMyCineList
             }
             else if (FilmeEscolhido == "A Bailarina")
             {
+                BackgroundImage = Properties.Resources.ABailarinaaaDetalhes;
                 pictureBox1.Image = Properties.Resources.BallerinaAdd;
                 titulo = "Nome Original: Ballerina";
                 sinopsedofilme = "Em A Bailarina, neste suspense de ação e vingança, a impiedosa ex-guarda-costas Ok-ju (Jun Jong-seo) persegue Choi (Kim Ji-hun), o homem responsável pela morte de sua melhor amiga Min-hee (Park Yu-rim), a quem jurou vingar.";
@@ -163,6 +172,8 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Barbie")
             {
+
+                BackgroundImage = Properties.Resources.BarbieDetalhes;
                 pictureBox1.Image = Properties.Resources.BarbieAdd;
                 nomeoriginal = "Barbie";
                 titulo = "Nome Original: Barbie";
@@ -175,6 +186,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Brilho Eterno de uma Mente Sem Lembranças")
             {
+                BackgroundImage = Properties.Resources.BrilhoDetalhes;
                 pictureBox1.Image = Properties.Resources.BrilhoAdd;
                 nomeoriginal = "Brilho Eterno de uma Mente Sem Lembranças";
                 titulo = "Nome Original: Eternal Sunshine of the Spotless Mind";
@@ -187,6 +199,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Central do Brasil")
             {
+                BackgroundImage = Properties.Resources.CentralDoBrasilDetalhes;
                 pictureBox1.Image = Properties.Resources.CentraldoBrasilAdd;
                 nomeoriginal = "Central do Brasil";
                 titulo = "Nome Original: Central do Brasil";
@@ -199,6 +212,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Farofeiros")
             {
+              //  BackgroundImage = Properties.Resources.;
                 pictureBox1.Image = Properties.Resources.FarofeirosAdd;
                 nomeoriginal = "Os Farofeiros";
                 titulo = "Nome Original: Os Farofeiros";
@@ -211,6 +225,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Frozen")
             {
+                BackgroundImage = Properties.Resources.Frozen1Detalhes;
                 pictureBox1.Image = Properties.Resources.FrozenAdd;
                 nomeoriginal = "Frozen I";
                 titulo = "Nome Original: Frozen";
@@ -223,6 +238,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Frozen II")
             {
+               //BackgroundImage = Properties.Resources.;
                 pictureBox1.Image = Properties.Resources.Frozen2Add;
                 nomeoriginal = "Frozen II";
                 titulo = "Nome Original: Frozen II";
@@ -236,6 +252,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "John Wick")
             {
+              //  BackgroundImage = Properties.Resources.;
                 pictureBox1.Image = Properties.Resources.JohnWickAdd;
                 nomeoriginal = "John Wick";
                 titulo = "Nome Original: John Wick";
@@ -249,6 +266,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Kill Bill Vol. 1")
             {
+            //  BackgroundImage = Properties.Resources.;
                 pictureBox1.Image = Properties.Resources.KillBillAdd;
                 nomeoriginal = "Kill Bill Vol. 1";
                 titulo = "Nome Original: Kill Bill Vol. 1";
@@ -262,6 +280,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Kill Bill Vol. 2")
             {
+              //  BackgroundImage = Properties.Resources.;
                 pictureBox1.Image = Properties.Resources.KB1add;
                 nomeoriginal = "Kill Bill Vol. 2";
                 titulo = "Nome Original: Kill Bill Vol. 2";
@@ -276,6 +295,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Mulan")
             {
+               BackgroundImage = Properties.Resources.MulanDetalhes;
                 pictureBox1.Image = Properties.Resources.MulanAdd;
                 nomeoriginal = "Mulan";
                 titulo = "Nome Original: Mulan";
@@ -289,6 +309,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "My Name")
             {
+                BackgroundImage = Properties.Resources.MyNameDetalhes;
                 pictureBox1.Image = Properties.Resources.MyNameAdd;
                 nomeoriginal = "My Name";
                 titulo = "Nome Internacional: My Name";
@@ -302,6 +323,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Nana")
             {
+                BackgroundImage = Properties.Resources.CentralDoBrasilDetalhes__2_;
                 pictureBox1.Image = Properties.Resources.NANAadd;
                 nomeoriginal = "Nana";
                 titulo = "Nome Internacional: Nana";
@@ -315,7 +337,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "O Amor Mora ao Lado")
             {
-                BackgroundImage = Properties.Resources.O_Amor_Mora_Ao_Lado_deetails;
+              //  BackgroundImage = Properties.Resources.;
                 pictureBox1.Image = Properties.Resources.LoveNextDoorAdd;
                 nomeoriginal = "O Amor Mora ao Lado";
                 titulo = "Nome Internacional: Love Next Door";
@@ -329,6 +351,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "O Jogo da Morte")
             {
+             //  BackgroundImage = Properties.Resources.;
                 pictureBox1.Image = Properties.Resources.JogoDaMAdd;
                 nomeoriginal = "O Jogo da Morte";
                 titulo = "Nome Internacional: Death's Game";
@@ -342,6 +365,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "O Rei do Show")
             {
+                BackgroundImage = Properties.Resources.ReiDetalhes;
                 pictureBox1.Image = Properties.Resources.ReiAdd;
                 nomeoriginal = "O Rei do Show";
                 titulo = "Nome Original: The Greatest Showman";
@@ -355,6 +379,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Operação Cupido")
             {
+                BackgroundImage = Properties.Resources.OperacaoDetalhes;
                 pictureBox1.Image = Properties.Resources.OperacaoAdd;
                 nomeoriginal = "Operação Cupido";
                 titulo = "Nome Original: The Parent Trap";
@@ -369,6 +394,7 @@ namespace AplicativoMyCineList
             else if (FilmeEscolhido == "Pulp Fiction")
                
             {
+                BackgroundImage = Properties.Resources.PulpFictionDetalhes;
                 pictureBox1.Image = Properties.Resources.PulpAdd;
                 nomeoriginal = "Pulp Fiction";
                 titulo = "Nome Original: Pulp Fiction";
@@ -382,6 +408,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Questão de Tempo")
             {
+                BackgroundImage = Properties.Resources.QuestãodeTempoDetalhes;
                 pictureBox1.Image = Properties.Resources.QuestaoAdd;
                 nomeoriginal = "Questão de Tempo";
                 titulo = "Nome Original: About Time";
@@ -395,6 +422,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Rainha das Lágrimas")
             {
+                BackgroundImage = Properties.Resources.CentralDoBrasilDetalhes__3_;
                 pictureBox1.Image = Properties.Resources.RainhaAdd;
                 nomeoriginal = "Rainha das Lágrimas";
                 titulo = "Nome Internacional: Queen Of Tears";
@@ -407,6 +435,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Rapunzel")
             {
+                BackgroundImage = Properties.Resources.RapunzelDetalhes;
                 pictureBox1.Image = Properties.Resources.RapunzelAdd;
                 nomeoriginal = "Rapunzel";
                 titulo = "Nome Original: Tangled";
@@ -420,6 +449,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Soulmate")
             {
+                BackgroundImage = Properties.Resources.SoulmateDetalhes;
                 pictureBox1.Image = Properties.Resources.SoulmateAdd;
                 nomeoriginal = "Soulmate";
                 titulo = "Nome Internacional: Soulmate";
@@ -433,6 +463,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Urso Sem Curso")
             {
+                BackgroundImage = Properties.Resources.UrsosDetalhes;
                 pictureBox1.Image = Properties.Resources.UrsoAdd;
                 nomeoriginal = "Urso Sem Curso";
                 titulo = "Nome Original: We Bare Bears";
@@ -446,6 +477,7 @@ namespace AplicativoMyCineList
 
             else if (FilmeEscolhido == "Your Name")
             {
+                BackgroundImage = Properties.Resources.YourNameDetalhes;
                 pictureBox1.Image = Properties.Resources.YourNameAdd;
                 // nome original na verdade se refere ao BR-PT //
                 nomeoriginal = "Seu Nome";

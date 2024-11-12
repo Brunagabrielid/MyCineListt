@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DetalhesFilmes));
             cmb_nomesFilmes = new ComboBox();
             DuracaoDoFilme = new Label();
             PaisDeOrigem = new Label();
@@ -44,7 +45,7 @@
             // cmb_nomesFilmes
             // 
             cmb_nomesFilmes.FormattingEnabled = true;
-            cmb_nomesFilmes.Location = new Point(28, 12);
+            cmb_nomesFilmes.Location = new Point(537, 24);
             cmb_nomesFilmes.Name = "cmb_nomesFilmes";
             cmb_nomesFilmes.Size = new Size(238, 28);
             cmb_nomesFilmes.TabIndex = 0;
@@ -56,7 +57,7 @@
             DuracaoDoFilme.BackColor = Color.LightGoldenrodYellow;
             DuracaoDoFilme.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             DuracaoDoFilme.ForeColor = SystemColors.ActiveCaptionText;
-            DuracaoDoFilme.Location = new Point(28, 348);
+            DuracaoDoFilme.Location = new Point(28, 291);
             DuracaoDoFilme.Name = "DuracaoDoFilme";
             DuracaoDoFilme.Size = new Size(63, 20);
             DuracaoDoFilme.TabIndex = 3;
@@ -68,7 +69,7 @@
             PaisDeOrigem.BackColor = Color.LightGoldenrodYellow;
             PaisDeOrigem.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             PaisDeOrigem.ForeColor = SystemColors.ActiveCaptionText;
-            PaisDeOrigem.Location = new Point(28, 288);
+            PaisDeOrigem.Location = new Point(28, 231);
             PaisDeOrigem.Name = "PaisDeOrigem";
             PaisDeOrigem.Size = new Size(109, 20);
             PaisDeOrigem.TabIndex = 5;
@@ -80,7 +81,7 @@
             NomeDoFilme.BackColor = Color.LightGoldenrodYellow;
             NomeDoFilme.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             NomeDoFilme.ForeColor = SystemColors.ActiveCaptionText;
-            NomeDoFilme.Location = new Point(28, 268);
+            NomeDoFilme.Location = new Point(28, 211);
             NomeDoFilme.Name = "NomeDoFilme";
             NomeDoFilme.Size = new Size(99, 20);
             NomeDoFilme.TabIndex = 6;
@@ -92,7 +93,7 @@
             NomeDoDiretor.BackColor = Color.LightGoldenrodYellow;
             NomeDoDiretor.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             NomeDoDiretor.ForeColor = SystemColors.ActiveCaptionText;
-            NomeDoDiretor.Location = new Point(28, 328);
+            NomeDoDiretor.Location = new Point(28, 271);
             NomeDoDiretor.Name = "NomeDoDiretor";
             NomeDoDiretor.Size = new Size(54, 20);
             NomeDoDiretor.TabIndex = 7;
@@ -104,7 +105,7 @@
             AtoresPrincipais.BackColor = Color.LightGoldenrodYellow;
             AtoresPrincipais.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             AtoresPrincipais.ForeColor = SystemColors.ActiveCaptionText;
-            AtoresPrincipais.Location = new Point(28, 308);
+            AtoresPrincipais.Location = new Point(28, 251);
             AtoresPrincipais.Name = "AtoresPrincipais";
             AtoresPrincipais.Size = new Size(160, 20);
             AtoresPrincipais.TabIndex = 8;
@@ -113,7 +114,7 @@
             // VerDetalhes
             // 
             VerDetalhes.ForeColor = SystemColors.ActiveCaptionText;
-            VerDetalhes.Location = new Point(272, 12);
+            VerDetalhes.Location = new Point(781, 18);
             VerDetalhes.Name = "VerDetalhes";
             VerDetalhes.Size = new Size(130, 38);
             VerDetalhes.TabIndex = 9;
@@ -125,16 +126,16 @@
             // 
             SinopseDoFilme.BackColor = Color.LightGoldenrodYellow;
             SinopseDoFilme.ForeColor = Color.Black;
-            SinopseDoFilme.Location = new Point(134, 64);
+            SinopseDoFilme.Location = new Point(126, 12);
             SinopseDoFilme.Multiline = true;
             SinopseDoFilme.Name = "SinopseDoFilme";
             SinopseDoFilme.ScrollBars = ScrollBars.Vertical;
-            SinopseDoFilme.Size = new Size(268, 170);
+            SinopseDoFilme.Size = new Size(389, 170);
             SinopseDoFilme.TabIndex = 10;
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(28, 75);
+            pictureBox1.Location = new Point(28, 37);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(92, 130);
             pictureBox1.TabIndex = 11;
@@ -146,7 +147,7 @@
             label1.BackColor = Color.LightGoldenrodYellow;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(28, 248);
+            label1.Location = new Point(28, 191);
             label1.Name = "label1";
             label1.Size = new Size(98, 20);
             label1.TabIndex = 12;
@@ -156,8 +157,9 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(925, 529);
+            BackColor = SystemColors.ControlLight;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(923, 575);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(SinopseDoFilme);
